@@ -75,7 +75,7 @@ export default function Header() {
             </nav>
 
             {mobileMenuOpen && (
-                <nav className="lg:hidden bg-purple-100 p-5 min-h-lvh fixed left-0 right-0 bottom-0 z-50 " aria-label="Mobile navigation">
+                <nav className="lg:hidden bg-purple-100 p-5 min-h-lvh fixed inset-0 z-50 " aria-label="Mobile navigation">
                     <div className="flex justify-between items-center">
                         <Link href="/" className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary focus-visible:rounded-md">
                             <Image alt="tobams logo" src="/tobams secondary logo.png" width={150} height={150} />

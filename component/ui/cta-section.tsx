@@ -4,7 +4,7 @@ export default function CTASection() {
             className="flex justify-center max-w-(--max-width-lg) mx-auto px-5"
             aria-labelledby="cta-heading1"
         >
-            <div className="w-300 bg-primary text-center text-white text-sm md:text-lg font-semibold rounded-md space-y-5 p-10">
+            <div className="w-300 bg-primary text-center text-white text-sm md:text-lg font-semibold rounded-md space-y-5 p-3 md:p-10">
                 <p className="hidden md:block">
                     Want to accelerate professional growth and development at your organisation?
                 </p>

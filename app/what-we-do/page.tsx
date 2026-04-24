@@ -1,4 +1,6 @@
 import { Metadata } from "next";
+import Header from "@/component/shared/header";
+import HeroSection from "@/component/ui/hero-section";
 
 export const metadata: Metadata = {
   title: 'What We Do | Tobams Group',
@@ -9,7 +11,10 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div className="tracking-wider bg-background">
-      
+      <Header />
+      <main>
+        <HeroSection />
+      </main>
     </div>
   );
 }

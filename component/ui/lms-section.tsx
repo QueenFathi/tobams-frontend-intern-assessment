@@ -22,7 +22,7 @@ export default function LMSSection() {
                     </div>
                     <div>
                         <H2 text={"Learning Management System"} mdhidden={false} textcolor={"text-primary"} />
-                        <div className="bg-primary/10 p-3 md:p-8 rounded-lg space-y-5">
+                        <div className="bg-primary/10 px-4 md:px-8 py-8 rounded-lg space-y-5">
                             <p className="texxt-main text-sm md:text-lg lg:leading-relaxed">
                                 TG Academy is a hub of knowledge and skill-building resources designed to empower tech talents on their learning journey. From technical courses covering the latest programming languages and development frameworks to soft skills training in leadership, effective communication and project management, TG Academy offers a wide range of courses to cater to diverse learning needs. With accessible and interactive learning materials, individuals can enhance their skills and stay ahead in today's competitive tech landscape.
                             </p>

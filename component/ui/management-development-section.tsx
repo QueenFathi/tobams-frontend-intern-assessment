@@ -4,7 +4,7 @@ import H2 from "./heading2";
 export default function ManagementDevelopmentProgramSection() {
     return (
         <section className="md:mb-10 max-w-(--max-width-lg) mx-auto px-5 py-10 md:py-15">
-            <div className="bg-purple-80 p-3 md:p-10 rounded-3xl grid lg:grid-cols-2 gap-7 lg:gap-15 items-center text-white">
+            <div className="bg-purple-80 px-4 md:px-10 py-10 rounded-3xl grid lg:grid-cols-2 gap-7 lg:gap-15 items-center text-white">
                 <H2 text={"Management Development Program"} mdhidden={true} textcolor={"text-white"} />
                 <div className="flex justify-center md:justify-start">
                     <div className="relative w-full h-80 md:h-180 rounded-lg rounded-br-none overflow-hidden">

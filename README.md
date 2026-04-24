@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 What We Do Page – Frontend Intern Assessment
 
-## Getting Started
+## 🔗 Live Demo
 
-First, run the development server:
+👉 [https://tobams-frontend-intern-assessment.vercel.app](https://tobams-frontend-intern-assessment.vercel.app)
+
+## 📁 GitHub Repository
+
+👉 [https://github.com/QueenFathi/tobams-frontend-intern-assessment.git](https://github.com/QueenFathi/tobams-frontend-intern-assessment.git)
+
+## 📌 Design Reference
+
+Figma Design:
+👉 [https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment)
+
+## 🧰 Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **Icons:** React Icons
+* **Deployment:** Vercel
+
+## 🚀 Setup Instructions
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/QueenFathi/tobams-frontend-intern-assessment.git
+cd tobams-frontend-intern-assessment
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install (recommended)
+# or
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server**
 
-## Learn More
+```bash
+pnpm dev (recommended)
+# or
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open in browser**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Project Overview
 
-## Deploy on Vercel
+This project is a pixel-perfect implementation of the **What We Do Page UI** from Figma using modern frontend best practices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The focus was on:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Accurate design translation
+* Clean, reusable component structure
+* Responsiveness across devices
+* Accessibility and semantic HTML
+
+## 🧩 Component Architecture
+
+The UI is broken into reusable components under `/components`, including:
+
+* `Navbar`
+* `HeroSection`
+* `LMSSection`
+* `FeatureSection`
+* `ManagementDevelopmentProgramSection`
+* `TransformationHubSection`
+* `TrainingConsultantSection`
+* `CTASection`
+* `TestimonialsSection`
+* `CTABanner`
+* `Footer`
+
+This ensures scalability and maintainability rather than a monolithic page structure.
+
+
+## ⚙️ Technical Assumptions
+
+### 1. Breakpoints
+
+The design does not define tablet breakpoints.
+
+* Responsiveness for tablet screens was inferred using standard device widths.
+
+### 2. Navbar Behavior
+
+Navbar interactions were not fully specified.
+
+Assumptions made:
+
+* Mobile navigation collapses into a hamburger menu
+* Navigation links are anchor-based (no complex routing)
+* Active states are indicated via hover and focus styles
+
+### 3. Interactions
+
+The design does not define animation behavior.
+
+* Minimal interactions were implemented:
+
+  * Hover effects on buttons and links
+* No heavy animations were introduced to preserve simplicity
+
+### 4. Layout System
+
+* A maximum width of 1280px was used for consistent horizontal spacing and alignment across sections
+
+### 5. Icons
+
+* Lightweight icons were implemented using React Icons where necessary to match the design
+
+### 6. Testimonial Carousel
+
+* Embla Carousel was used for the testimonial section
+* This improves usability, especially on mobile devices, with swipe support
+
+
+## 🧼 Code Quality
+
+* No inline styles — only Tailwind utility classes
+* Clean and consistent naming conventions
+* No unused imports or dead code
+* Images optimized using Next.js best practices
+* Modular and reusable components
+
+
+## ⚠️ Notes
+
+* Minor spacing differences may exist due to Tailwind’s spacing scale limitations
+* Some assets were approximated where exact exports were unavailable
+
+
+## 🤖 AI Usage Disclosure
+
+AI tools (ChatGPT) was only used as a support tool to finetune the documentation of the README file

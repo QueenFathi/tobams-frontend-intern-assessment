@@ -4,6 +4,12 @@ import HeroSection from "@/component/ui/hero-section";
 import LMSSection from "@/component/ui/lms-section";
 import { FeatureSection } from "@/component/ui/feature-section";
 import ManagementDevelopmentProgramSection from "@/component/ui/management-development-section";
+import TransformationHubSection from "@/component/ui/transformation-hub-section";
+import TrainingConsultantSection from "@/component/ui/training-consultants-section";
+import CTASection from "@/component/ui/cta-section";
+import TestimonialsSection from "@/component/ui/testimonials-section";
+import CTABanner from "@/component/ui/cta-banner";
+import Footer from "@/component/shared/footer";
 
 
 export const metadata: Metadata = {
@@ -51,6 +57,12 @@ export default function About() {
           ))}
         </div>
         <ManagementDevelopmentProgramSection />
+        <TransformationHubSection />
+        <TrainingConsultantSection />
+        <CTASection />
+        <TestimonialsSection />
+        <CTABanner />
+        <Footer />
       </main>
     </div>
   );

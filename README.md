@@ -2,7 +2,7 @@
 
 ## 🔗 Live Demo
 
-👉 [https://tobams-frontend-intern-assessment.vercel.app](https://tobams-frontend-intern-assessment.vercel.app)
+👉 [https://tobams-frontend-intern-assessment.vercel.app/what-we-do](https://tobams-frontend-intern-assessment.vercel.app/what-we-do)
 
 ## 📁 GitHub Repository
 

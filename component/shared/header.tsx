@@ -24,7 +24,7 @@ export default function Header() {
 
     return (
         <header className="w-full bg-white">
-            <div className="max-w-[1280px] mx-auto px-5 py-2">
+            <div className="max-w-(--max-width-lg) mx-auto px-5 py-3">
                 <div className="flex justify-between items-center">
                     <Link href="/" className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary focus-visible:rounded-md">
                         <Image alt="tobams logo" src="/tobams secondary logo.png" width={150} height={150} />
@@ -56,8 +56,8 @@ export default function Header() {
                 </div>
             </div>
 
-            <nav className="hidden lg:flex justify-center items-center py-5  border-t border-gray-200">
-                <div className="flex items-center gap-4 xl:gap-10 text-lg">
+            <nav className="hidden lg:flex justify-center items-center py-5 border-t border-gray-200">
+                <div className="flex items-center gap-4 xl:gap-10 xl:text-lg">
                     {navLinks.map((link, index) => (
                         <div key={index} className="relative group">
                             <Link
@@ -75,7 +75,24 @@ export default function Header() {
             </nav>
 
             {mobileMenuOpen && (
-                <nav className="lg:hidden bg-purple-100 p-5 min-h-lvh top-25 fixed left-0 right-0 bottom-0 z-50 " aria-label="Mobile navigation">
+                <nav className="lg:hidden bg-purple-100 p-5 min-h-lvh fixed left-0 right-0 bottom-0 z-50 " aria-label="Mobile navigation">
+                    <div className="flex justify-between items-center">
+                        <Link href="/" className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary focus-visible:rounded-md">
+                            <Image alt="tobams logo" src="/tobams secondary logo.png" width={150} height={150} />
+                        </Link>
+                        <button
+                            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                            className="lg:hidden p-1 bg-main hover:bg-black rounded-lg text-white hover:text-purple-40 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                            aria-label="Toggle navigation menu"
+                            aria-expanded={mobileMenuOpen}
+                        >
+                            {mobileMenuOpen ? (
+                                <LuX size={25} />
+                            ) : (
+                                <LuMenu size={25} />
+                            )}
+                        </button>
+                    </div>
                     <div className="space-y-3">
                         {navLinks.map((link, index) => (
                             <div key={index}>

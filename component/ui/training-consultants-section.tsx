@@ -23,7 +23,7 @@ const Features = [
 export default function TrainingConsultantSection() {
     return (
         <section className="mb-10 py-10 md:py-15 bg-primary/10">
-            <div className="max-w-[1280px] mx-auto px-5">
+            <div className="max-w-(--max-width-lg) mx-auto px-5">
                 <div>
                     <div>
                         <H2 text={"Training The Consultant"} />

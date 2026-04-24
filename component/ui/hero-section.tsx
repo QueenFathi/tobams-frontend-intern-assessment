@@ -7,7 +7,7 @@ export default function HeroSection() {
                 <Image
                     src="/herosection image.jpg"
                     alt="About us | Training and Development"
-                    className="h-150 md:h-180 object-cover"
+                    className="h-100 md:h-180 object-cover"
                     fill
                 />
                 <div className="absolute inset-0 bg-black/70" />
@@ -26,7 +26,7 @@ export default function HeroSection() {
                     Our comprehensive range of programs and resources is designed to enhance
                     skills, broaden knowledge, and propel careers forward in today’s ever-evolving landscape.
                 </p>
-                <button className="bg-primary px-8 py-3 rounded-md md:text-lg font-medium mt-5 cursor-pointer">
+                <button className="bg-primary px-8 py-3 rounded-md md:text-lg font-medium md:mt-5 cursor-pointer">
                     Book a Consultation
                 </button>
             </div>

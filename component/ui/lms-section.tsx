@@ -7,11 +7,11 @@ const courses = ["Business Analysis", "Design Thinking", "Effective Communicatio
 export default function LMSSection() {
     return (
         <section className="bg-primary/10 flex mb-10 py-15">
-            <div className="max-w-[1280px] mx-auto px-5">
+            <div className="max-w-(--max-width-lg) mx-auto px-5">
                 <div className="grid lg:grid-cols-2 gap-10 items-center">
                     <H2 text={"Learning Management System"} mdhidden={true} textcolor={"text-primary"} />
                     <div className="flex justify-center lg:justify-start">
-                        <div className="relative w-100 md:w-130 lg:w-160 h-100 md:h-130 lg:h-160 rounded-full overflow-hidden">
+                        <div className="relative w-90 md:w-130 lg:w-160 h-90 md:h-130 lg:h-160 rounded-full overflow-hidden">
                             <Image
                                 src="/lms image.jpg"
                                 alt="Learning Management Syatem"

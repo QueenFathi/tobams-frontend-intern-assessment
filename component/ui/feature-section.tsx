@@ -12,7 +12,7 @@ interface FeatureProps {
 export function FeatureSection({ imagesrc, title, description, elements, reverse }: FeatureProps) {
     return (
         <section className="flex bg-white">
-            <div className={`flex ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"} flex-col-reverse gap-10 lg:items-center max-w-[1280px] mx-auto px-5`}>
+            <div className={`flex ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"} flex-col-reverse gap-10 lg:items-center max-w-(--max-width-lg) mx-auto px-5`}>
                 <div className="lg:w-1/2">
                     <H2 text={title} mdhidden={false} />
                     <div className="text-sm md:text-lg leading-relaxed text-[#696969]">

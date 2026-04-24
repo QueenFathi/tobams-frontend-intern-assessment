@@ -8,7 +8,7 @@ import FooterColumn from "../ui/footer-column";
 export default function Footer() {
     return (
         <footer className="bg-purple-100 text-white">
-            <div className="max-w-[1280px] mx-auto px-5">
+            <div className="max-w-(--max-width-lg) mx-auto px-5">
                 <div className="grid lg:grid-cols-3 gap-10 py-20">
                     <section className="space-y-8 lg:col-span-1">
                         <Image

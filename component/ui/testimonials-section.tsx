@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
 
   return (
     <section className="py-20">
-      <div className=" max-w-[1280px] mx-auto px-5">
+      <div className=" max-w-(--max-width-lg) mx-auto px-5">
         <div className="flex items-center justify-center mb-10">
           <H2 text={"Testimonials"} />
         </div>

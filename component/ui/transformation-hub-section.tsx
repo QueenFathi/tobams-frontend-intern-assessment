@@ -4,7 +4,7 @@ import LearnMore from "./learn-more-button";
 export default function TransformationHubSection() {
     return (
         <section className="mb-10 py-15 bg-white">
-            <div className="max-w-[1280px] mx-auto px-5">
+            <div className="max-w-(--max-width-lg) mx-auto px-5">
                 <div className="bg-secondary/20 p-10 rounded-xl">
                     <div className="mb-5 space-y-2">
                         <h5 className="text-accent md:text-xl italic">Learning With Our CEO</h5>

@@ -13,9 +13,17 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Tobams",
-  description: "Tobams Website",
-};
+  title: "Tobams Group",
+  description: "Tobams Group is a global company focused on innovation and talent development, helping individuals learn, grow, and access opportunities in a changing world",
+  icons: {
+    icon: [
+      {
+        url: "/tobams secondary logo.png",
+      },
+    ],
+    apple: "/tobams secondary logo.png",
+  },
+}
 
 export default function RootLayout({
   children,

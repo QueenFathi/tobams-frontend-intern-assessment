@@ -5,7 +5,7 @@ export default function TransformationHubSection() {
     return (
         <section className="mb-10 py-15 bg-white">
             <div className="max-w-(--max-width-lg) mx-auto px-5">
-                <div className="bg-secondary/20 px-4 md:px-10 py-10 rounded-xl">
+                <div className="bg-secondary/20 p-5 md:p-10 rounded-xl">
                     <div className="mb-5 space-y-2">
                         <h5 className="text-accent md:text-xl italic">Learning With Our CEO</h5>
                         <h2 className="text-2xl md:text-4xl xl:text-5xl text-primary italic tracking-wider">

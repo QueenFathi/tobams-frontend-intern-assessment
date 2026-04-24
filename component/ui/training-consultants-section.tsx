@@ -37,7 +37,7 @@ export default function TrainingConsultantSection() {
                         training methods through interactive workshops. Participating in our program will enable you to gain expertise in diverse 
                         courses while also developing the abilities to mentor and encourage others in their career advancement.
                     </p>
-                    <div className="px-4 md:px-10 py-10 bg-primary text-white text-lg grid md:grid-cols-2 gap-5 rounded-md">
+                    <div className="p-5 md:p-10 bg-primary text-white text-lg grid md:grid-cols-2 gap-5 rounded-md">
                         {Features.map((features, index) => (
                             <div key={index} className="space-y-3">
                                 <p className="font-bold">{features.title}</p>

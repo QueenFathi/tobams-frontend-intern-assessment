@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="relative h-180 w-full flex items-center justify-center text-center text-white mb-10">
+        <section className="relative h-100 md:h-140 xl:h-180 w-full flex items-center justify-center text-center text-white mb-10">
             <div className="absolute inset-0">
                 <Image
                     src="/herosection image.jpg"
                     alt="About us | Training and Development"
-                    className="h-100 md:h-180 object-cover"
+                    className="object-cover"
                     fill
                 />
                 <div className="absolute inset-0 bg-black/70" />
             </div>
 
-            <div className="relative z-10 max-w-6xl px-5 space-y-5 md:space-y-10">
+            <div className="relative z-10 max-w-6xl px-5 space-y-7 md:space-y-10">
                 <div>
                     <span className="bg-white/20 text-xs md:text-base px-12 py-3 rounded-full uppercase">
                         What we do

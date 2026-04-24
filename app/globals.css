@@ -23,6 +23,8 @@
   --main: #151515;
 
   --text-5xl: 30px;
+
+  --max-width-lg: 1280px;
 }
 
 @theme inline {
@@ -60,4 +62,3 @@
     --foreground: #ededed;
   }
 } */
- 
